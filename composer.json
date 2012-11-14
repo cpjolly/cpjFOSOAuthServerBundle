@@ -1,5 +1,5 @@
 {
-    "name": "friendsofsymfony/oauth-server-bundle",
+    "name": "cpj/cpjoauth-server-bundle",
     "type": "symfony-bundle",
     "description": "Symfony2 OAuth Server Bundle",
     "keywords": ["oauth", "oauth2", "server"],
@@ -17,15 +17,15 @@
     "require": {
         "php": ">=5.3.3",
         "friendsofsymfony/oauth2-php": "1.0.*",
-        "symfony/framework-bundle": "2.1.*",
-        "symfony/security-bundle": "2.1.*"
+        "symfony/framework-bundle": ">=2.0.0, <2.4.0-dev",
+        "symfony/security-bundle": ">=2.0.0, <2.4.0-dev"
     },
     "require-dev": {
         "doctrine/orm": "2.*",
         "doctrine/mongodb-odm": "dev-master",
         "willdurand/propel-typehintable-behavior": "dev-master",
-        "symfony/class-loader": "2.1.*",
-        "symfony/security-bundle": "2.1.*",
+        "symfony/class-loader": ">=2.0.0, <2.4.0-dev",
+        "symfony/security-bundle": ">=2.0.0, <2.4.0-dev",
         "doctrine/doctrine-bundle": "1.0.*"
     },
     "suggest": {

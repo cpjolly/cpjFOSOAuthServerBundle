@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "friendsofsymfony/oauth2-php": "1.0.*",
+        "cpj/cpjoauth2-php": ">=1.0.0",
         "symfony/framework-bundle": ">=2.0.0, <2.4.0-dev",
         "symfony/security-bundle": ">=2.0.0, <2.4.0-dev"
     },
